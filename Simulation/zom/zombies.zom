@@ -1,0 +1,18 @@
+rotate,1
+attack
+forward
+ranged_attack
+rotate,2
+forward
+test_passable
+je,5
+test_random
+jne,1
+forward
+attack
+ranged_attack
+rotate,1
+test_human,1
+goto,11
+attack
+goto, 11
